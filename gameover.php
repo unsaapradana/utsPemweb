@@ -31,7 +31,7 @@ $koneksiDB->masukkanData($nama, $email, $score);
 <body>
     <div class="container pt-4">
         <h1>Hello <?php echo $nama ?>, Permainan sudah selesai</h1>
-        <h1>Skor Anda : <?php echo $skor ?></h1>
+        <h1>Skor Anda : <?php echo $score ?></h1>
         <a href="index.php" class="btn btn-primary">Main Lagi</a>
         <hr>
         <h2>Hall of Fame</h2>
